@@ -1,6 +1,8 @@
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
+//javac -g -encoding UTF-8 sudokuSolver.java
+
 
 public class sudokuSolver extends Frame implements WindowListener,ActionListener {
 	Button b;
