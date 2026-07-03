@@ -2,6 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.awt.Font;
 import java.util.*;
+
 //javac -g -encoding UTF-8 sudokuSolver.java
 //javac -g -encoding UTF-8 sudokuSolver.java && java sudokuSolver
 
@@ -107,6 +108,7 @@ public class sudokuSolver extends Frame implements WindowListener,ActionListener
 				consoleDisplay += "╠═══╪═══╪═══╬═══╪═══╪═══╬═══╪═══╪═══╣\n";
 			}
 		}
+		
 		consoleDisplay +="╚═══╧═══╧═══╩═══╧═══╧═══╩═══╧═══╧═══╝\n";
 		info.setText(consoleDisplay);
 		
